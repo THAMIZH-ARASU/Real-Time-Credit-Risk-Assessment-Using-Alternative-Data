@@ -217,9 +217,9 @@ As observed, although the CatBoost Classifier (Tunned HP) has a higher recall an
 
 <br>
 
-# 4.0 Next Steps
+# Next Steps
 
-**4.1** Address the remaining challenges (A and C).
+**** Address the remaining challenges (A and C).
 
 <br>
 
