@@ -157,7 +157,7 @@ The <mark>**highlighted cells**</mark> correspond to the max value at each colum
 
 As mentioned before, the `CatBoostClassifier` satisfies the conditions. But wait, `Logistic Regression` has the least number of FN, why not choosing it? Yes, it has, but the number of FP is way too high (`1217`) compared with other algorithms.
 
-#### 3.1.3.1 Choosing the overall best algorithm
+#### Choosing the overall best algorithm
 
 As observed, for the context of our project, we are aiming for recall. `LogisticRegression` presents the highest recall score. However, it's precision score is the lowest. Let's assume we are aiming more for recall and moderate to precision, we could then, take advantage of f1-score, as it's the harmonic average between precision and recall. Thus, the algorithm that satisfies this need is **`CatBoostClassifier`**.
 
